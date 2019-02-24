@@ -74,5 +74,6 @@ def runner
       hit?(sum)
     end
   end
+  end_game(total)
 end
     
