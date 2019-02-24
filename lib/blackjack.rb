@@ -66,7 +66,7 @@ def runner
   # code runner here
   welcome
   sum = initial_round
-  until hit?(sum) > 21
+  until sum > 21
     input = prompt_user
     if input == 's'
       prompt_user
