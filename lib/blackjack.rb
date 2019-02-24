@@ -67,7 +67,7 @@ def runner
   welcome
   sum = initial_round
   until sum > 21
-    sum = hit(sum)
+    sum = hit?(sum)
     if input == 's'
       prompt_user
     elsif input == 'h'
