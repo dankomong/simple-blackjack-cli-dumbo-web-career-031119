@@ -69,11 +69,6 @@ def runner
   until sum > 21
     sum = hit?(sum)
     display_card_total(sum)
-    if input == 's'
-      prompt_user
-    elsif input == 'h'
-      hit?(sum)
-    end
   end
 end
     
