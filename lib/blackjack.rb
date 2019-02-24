@@ -64,9 +64,9 @@ end
 
 def runner
   # code runner here
+  welcome
+  sum = initial_round
   until hit?(sum) > 21
-    welcome
-    sum = initial_round
     input = prompt_user
     if input == 's'
       prompt_user
@@ -74,6 +74,5 @@ def runner
       hit?(sum)
     end
   end
-  end_game(total)
 end
     
